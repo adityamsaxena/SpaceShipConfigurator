@@ -1,0 +1,147 @@
+body{
+  background-color: #051544;
+  font-family:'Roboto Mono';
+}
+
+.main > h1{
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 100%;
+  letter-spacing: 20%;
+  text-align: center;
+  color: #7BF762;
+  font-family: 'Roboto Mono'
+}
+
+.main {
+  display: flex;
+  flex-direction: row;
+  background-color: #051544;
+  border: 1px solid #7BF762;
+  border-radius: 8px;
+  margin: 32px auto;
+  padding: 20px;
+  width: 1200px;
+  gap: 20px;
+  color: #7BF762;
+  font-family: 'Roboto Mono';
+}
+
+
+.color{
+  color: #7BF762;
+  Width: 141px;
+  height: 24px;
+  Top: 144px;
+  Left: 280px;
+}
+
+.power{
+  color: #7BF762;
+  Width: 141px;
+  height: 24px;
+  Top: 336px;
+  Left: 281px;
+}
+
+.warpdrive{
+  color: #7BF762;
+  Width: 119px;
+  height: 24px;
+  Top: 481px;
+  Left: 280px;
+}
+
+.option{
+  color: #7BF762;
+  Width: 238px;
+  height: 24px;
+  Top: 623px;
+  Left: 281px;
+}
+
+.flex-container{
+  display: flex;
+}
+
+.flex-container > div{
+  border: 0.2px solid #7BF762;
+  border-radius: 5px;
+  Width: 160px;
+  Height: 112px;
+  Top: 176px;
+  Left: 280px;
+  margin: 10px;
+  padding: 20px;
+}
+
+.flex-container-pw{
+  display: flex;
+}
+
+.flex-container-pw > div{
+  border: 0.2px solid #7BF762;
+  border-radius: 5px;
+  Width: 160px;
+  Height: 64px;
+  Top: 368px;
+  Left:281px;
+  margin: 10px;
+  padding: 20px;
+}
+
+.flex-container-wd{
+  display: flex;
+}
+
+.flex-container-wd > div{
+border: 0.2px solid #7BF762;
+border-radius: 5px;
+Width: 160px;
+Height: 64px;
+Top: 513px;
+Left: 280px;
+margin: 10px;
+padding: 20px;
+}
+
+.flex-container-sop{
+  display: flex;
+}
+
+.flex-container-sop > div{
+  border: 0.2px solid #7BF762;
+border-radius: 5px;
+Width: 160px;
+Height: 192px;
+Top: 655px;
+Left: 280px;
+margin: 10px;
+padding: 20px;
+}
+
+
+.left-panel {
+  flex: 3;
+}
+
+.right-panel {
+  flex: 1;
+  background-color: #0c1e3a;
+  padding: 20px;
+  border: 1px solid #7BF762;
+  border-radius: 8px;
+  height: fit-content;
+}
+
+.price-row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.total {
+  font-weight: bold;
+  border-top: 1px solid #7BF762;
+  padding-top: 10px;
+}
